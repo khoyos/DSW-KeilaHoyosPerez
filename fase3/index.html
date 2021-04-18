@@ -8,27 +8,26 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>
-            KSHP
-        </h1>
-    </header>
+    <h1 class="header">
+        KSHP
+    </h1>
     <nav class="nav">
+
         <ul>
-            <li class="active"><a href="/DSW-KeilaHoyosPerez/fase3/index.html">Inicio</a></li>
+            <li class="active"><a href="#">Inicio</a></li>
             <li><a href="#">Temas</a>
                 <div class="sub-nav">
                     <ul>
-                        <li><a href="#">GUI</a></li>
-                        <li><a href="#">HCI</a></li>
+                        <li><a href="subMenus/gui.html">GUI</a></li>
+                        <li><a href="subMenus/hci.html">HCI</a></li>
                     </ul>
                 </div>
             </li>
             <li><a href="#">Recursos digitales</a>
                 <div class="sub-nav">
                     <ul>
-                        <li><a href="/DSW-KeilaHoyosPerez/fase3/subMenus/guiMultimedia.html">video GUI</a></li>
-                        <li><a href="/DSW-KeilaHoyosPerez/fase3/subMenus/hciMultimedia.html">video HCI</a></li>
+                        <li><a href="subMenus/guiMultimedia.html">video GUI</a></li>
+                        <li><a href="subMenus/hciMultimedia.html">video HCI</a></li>
                     </ul>
                 </div>
             </li>
@@ -40,11 +39,11 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="#">Autor</a></li>
+            <li><a href="subMenus/autor.html">Autor</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>
+    <section class="padre-info">
+        <h2 style="margin-bottom: 20px;">
             Plataforma de Aprendizaje en línea KSHP
         </h2>
         <p>
@@ -55,14 +54,12 @@
             GUI (Interfaz grafica de usuario) y HCI (Interacción hombre maquina), s
         </p>
     </section>
-    <section class="main">
-        <article>
-            <header>
-                <h2>¿Qué que es una interfaz gráfica de usuario (GUI)?</h2>
-            </header>
-            <img src="https://ist.workana.com/wp-content/uploads/2020/03/GUI-WORKANA-GLOSARIO-850x400.jpg">
-            <br />
-            <p>La GUI es una interfaz entre la persona y la máquina. El objetivo de esta interfaz gráfica es representar
+    <section class="padre-columnas">
+        <article class="columna">
+            <h2 style="margin-bottom: 20px;">¿Qué que es una interfaz gráfica de usuario (GUI)?</h2>
+            <p>
+                La GUI es una interfaz entre la persona y la máquina. El objetivo de esta interfaz gráfica es
+                representar
                 el código del
                 <em>backend</em> de un sistema <strong>de la forma más clara posible para el usuario</strong> para
                 simplificarle las tareas diarias.
@@ -71,37 +68,39 @@
                 Por ejemplo, casi todo el mundo sabe cómo es un icono de wifi, mientras que la palabra varía mucho en
                 los distintos idiomas.
             </p>
-            <p>Ionos digitalguide. (2020, 09, 14). GUI: qué es una interfaz gráfica de usuario - IONOS. [Una graphical
-                user interface o Gui es una interfaz se utiliza para controlar pc, tablets y otros dispositivos]
-                Recuperado de <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-una-gui/"
-                    target="_blank">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-una-gui/</a>
-            </p>
-            <br />
+            <p style="text-align: right;"><a href="subMenus/gui.html">ver mas...</a></p>
         </article>
-        <br />
-        <article>
-            <header>
-                <h2>¿Qué que es la Interacción Humano Computadora?</h2>
-            </header>
-            <img
-                src="https://3.bp.blogspot.com/-Sfh6bxsc4rw/WQaQ_V9qb2I/AAAAAAAADhQ/udUGxjO7RGMz-uTicBfm8XQ7W0Nn-mePwCLcB/s1600/descarga.jpg">
-            <br />
+        <article class="columna">
+            <h2 style="margin-bottom: 20px;">¿Qué que es la Interacción Humano Computadora?</h2>
             <p>HCI es un dominio interdisciplinario que abarca disciplinas como la informática, la ingeniería de los
                 factores humanos, la inteligencia artificial, la lingüística, la filosofía, la antropología y la ciencia
                 cognitiva.</p>
-            <p>Brenton. (2019, 07, 22). ¿Qué es la Interacción Humano Computadora?. [HCI consta de tres componentes: los
-                usuarios, los ordenadores y la interacción entre ellos] Recuperado de
-                <a href="https://blog.opinno.io/es/blog/que-es-la-interaccion-humano-computadora"
-                    target="_blank">https://blog.opinno.io/es/blog/que-es-la-interaccion-humano-computadora</a>
-            </p>
-            <br />
+            <p style="text-align: right;"><a href="subMenus/hci.html">ver mas...</a></p>
+        </article>
+        <article class="columna">
+            <h2 style="margin-bottom: 20px;">¿Otra información?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea obcaecati corporis id tenetur facere
+                voluptatem in, asperiores odio commodi illo iure facilis voluptatibus? Voluptatem id autem eaque, culpa
+                ea blanditiis?</p>
+            <p style="text-align: right;"><a href="#">ver mas...</a></p>
         </article>
     </section>
-    <section>
-        <h2>Mockup de la pagina web</h2>
-        <img src="..\img\mockup_pagina_web.png">
-        <br />
-        <br />
+    <section class="padre-section">
+        <h2 style="margin-bottom: 20px; padding-top: 20px; text-align: center;">
+            Mockup de la pagina web
+        </h2>
+        <p style="text-align: center; padding: 25px;">
+            <img src="..\img\mockup_pagina_web.png">
+        </p>
+    </section>
+    <section class="padre-section" style="text-align: center; padding: 25px">
+        <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width=""
+            data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD
+                    Colombia</a></blockquote>
+        </div>
     </section>
     <footer class="footer">
         <p>email: keilahoyosp@gmail.com</p>
@@ -110,5 +109,7 @@
         <p>Copyright 2021 keila sandrith hoyos perez</p>
     </footer>
 </body>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0"
+    nonce="9XsTojvQ"></script>
 
 </html>

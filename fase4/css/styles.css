@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+
+.header{
+    background:rgb(241, 70, 40);
+    float: left;
+    height: 100%;
+    padding: 15px 0px 37px 26px;
+    color: #ffff;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.nav{
+    background:rgb(241, 70, 40);
+    text-align: center;
+    border: 1px;
+    color:brown; 
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.nav ul li{
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .nav ul li:hover{
+    background: rgb(211, 55, 28);
+    border-radius: 3px;
+}
+
+.nav .fa{
+    margin-right: 8px;
+}
+
+.sub-nav{
+    display: none;
+}
+
+.nav ul li:hover .sub-nav{
+    display: block;
+    position: absolute;
+    background:rgb(241, 70, 40);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.nav ul li:hover .sub-nav ul{
+    display: block;
+    margin: 10px;
+}
+
+.nav ul li:hover .sub-nav ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav ul li:hover .sub-nav ul li:last-child{
+    border-bottom: none;
+}
+
+.nav ul li:hover .sub-nav ul li a:hover{
+    color: rgb(230, 119, 99);
+}
+
+.footer{
+    background:rgb(241, 70, 40);
+    text-align: center;
+    border: 1px solid;
+    color:#fff; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 15px;
+}
+
+
+.padre-info{
+    background: #a799b7;
+    color: #542e71;
+    padding: 20px;
+    margin: 10px;
+}
+
+.columna{
+    background: #fdca40;
+    color: #542e71;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.padre-columnas{
+    display: flex;
+}
+
+.padre-section{
+    background: #fdca40;
+    margin: 10px;
+    color: #542e71;
+}
+
+.gui-article{
+    text-align: center;
+}
+
+
